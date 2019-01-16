@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>scopeName</key>
+        <string>source.adv</string>
+        
+        <key>fileTypes</key>
+        <array>
+            <string>adv</string>
+        </array>
+
+        <key>name</key>
+        <string>Adventure Script</string>
+
+        <key>patterns</key>
+        <array>
+            <dict>
+                <key>match</key>
+                <string>;.*$\n?</key>
+                <key>name</key>
+                <string>comment.line.double-slash</string>
+            </dict>
+
+            <dict>
+                <key>match</key>
+                <string>(?i)WAIT</string>
+                <key>name</key>
+                <string>keyword.control.flow.python</string>
+            </dict>
+
+            <dict>
+                <key>match</key>
+                <string>(?i)EXIT</string>
+                <key>name</key>
+                <string>support.function</string>
+            </dict>
+
+            <dict>
+                <key>match</key>
+                <string>(?i)RUN</string>
+                <key>name</key>
+                <string>support.function</string>
+            </dict>
+
+            <dict>
+                <key>match</key>
+                <string>(?i)SAY</string>
+                <key>name</key>
+                <string>support.function</string>
+            </dict>
+
+            <dict>
+                <key>match</key>
+                <string>(?i)OBJECTIF</string>
+                <key>name</key>
+                <string>support.function</string>
+            </dict>
+
+            <dict>
+                <key>match</key>
+                <string>(?i)CALL</string>
+                <key>name</key>
+                <string>support.function</string>
+            </dict>
+
+
+            <dict>
+                <key>match</key>
+                <string>(?i)FUN</string>
+                <key>name</key>
+                <string>keyword.control</string>
+            </dict>
+
+            <dict>
+                <key>match</key>
+                <string>(?i)END</string>
+                <key>name</key>
+                <string>keyword.control</string>
+            </dict>
+
+
+            <dict>
+                <key>match</key>
+                <string>(?i)THEN</string>
+                <key>name</key>
+                <string>keyword.operator</string>
+            </dict>
+
+            <dict>
+                <key>match</key>
+                <string>(?i)FILE</string>
+                <key>name</key>
+                <string>constant.language</string>
+            </dict>
+
+
+            <dict>
+                <key>match</key>
+                <string>(?i)DIR</string>
+                <key>name</key>
+                <string>constant.language</string>
+            </dict>
+
+
+            <dict>
+                <key>match</key>
+                <string>(?i)EXEC</string>
+                <key>name</key>
+                <string>support.function</string>
+            </dict>
+
+            
+            <dict>
+                <key>match</key>
+                <string>(?i):</string>
+                <key>name</key>
+                <string>constant.character</string>
+            </dict>
+
+            <dict>
+                <key>match</key>
+                <string>\".*?\"</string>
+                <key>name</key>
+                <string>string.quoted.double</string>
+            </dict>
+        </array>
+        <key>uuid</key>
+        <string>f7e1343f-56df-4975-a840-e5a7c557917f</string>
+    </dict>
+</plist>

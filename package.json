@@ -1,0 +1,27 @@
+{
+    "name": "adv",
+    "displayName": ".adv",
+    "description": "Adventure Script",
+    "version": "1.0.0",
+    "engines": {
+        "vscode": "^1.30.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    
+    "publisher": "0v3rl0w",
+    "contributes": {
+        "languages": [{
+            "id": "adv",
+            "aliases": ["Adventure Script", "adv"],
+            "extensions": [".adv"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "adv",
+            "scopeName": "source.adv",
+            "path": "./syntaxes/adv.tmLanguage"
+        }]
+    }
+}
