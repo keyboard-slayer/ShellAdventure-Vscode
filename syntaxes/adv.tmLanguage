@@ -118,6 +118,22 @@
                 <string>constant.character</string>
             </dict>
 
+
+            <dict>
+                <key>match</key>
+                <string>(?i)DONE</string>
+                <key>name</key>
+                <string>support.function</string>
+            </dict>
+
+            <dict>
+                <key>match</key>
+                <string>[0-9]+s</string>
+                <key>name</key>
+                <string>constant.numeric</string>
+            </dict>
+
+
             <dict>
                 <key>match</key>
                 <string>\".*?\"</string>
