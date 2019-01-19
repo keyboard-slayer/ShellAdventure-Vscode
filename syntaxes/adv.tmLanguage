@@ -31,6 +31,13 @@
 
             <dict>
                 <key>match</key>
+                <string>(?i)IFEXIST</string>
+                <key>name</key>
+                <string>keyword.control.flow.python</string>
+            </dict>
+
+            <dict>
+                <key>match</key>
                 <string>(?i)EXIT</string>
                 <key>name</key>
                 <string>support.function</string>
@@ -98,6 +105,20 @@
             <dict>
                 <key>match</key>
                 <string>(?i)DIR</string>
+                <key>name</key>
+                <string>constant.language</string>
+            </dict>
+
+            <dict>
+                <key>match</key>
+                <string>(?i)DELDIR</string>
+                <key>name</key>
+                <string>constant.language</string>
+            </dict>
+
+            <dict>
+                <key>match</key>
+                <string>(?i)DELFILE</string>
                 <key>name</key>
                 <string>constant.language</string>
             </dict>
